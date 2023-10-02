@@ -1,1 +1,3 @@
-hello, world!
+## Karthik Srinivasan's Website
+
+*Be Amazed*
