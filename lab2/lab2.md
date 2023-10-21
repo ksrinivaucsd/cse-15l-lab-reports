@@ -43,3 +43,6 @@
             Server.start(port, new Handler());
         }
     }
+![Image](CSE15LLab2Pic1.png)
+![Image](CSE15LLab2Pic2.png)
+![Image](CSE15LLab2Pic3.png)
