@@ -43,6 +43,12 @@
             Server.start(port, new Handler());
         }
     }
-![Image](CSE15LLab2Pic1.png)
+
+
 ![Image](CSE15LLab2Pic2.png)
+
+The above screenshot shows the use of add-message to add a line that says "Hello". Entering the URL on the search bar triggers the handleRequest() method in the Handler class. The relevant argument is the URL itself. The relevant fields in the class Handler are num and contents which are set to 0 and "" respectively at the time of this method call. After the method call, num changes to 1 and contents changes to "\n1. Hello". 
+
 ![Image](CSE15LLab2Pic3.png)
+
+The above screenshot shows the use of add-message to add a line that says "How are you". Entering the URL on the search bar triggers the handleRequest() method in the Handler class. The relevant argument is the URL itself. The relevant fields in the class Handler are num and contents which are set to 1 and "1. Hello" respectively at the time of this method call. After the method call, num changes to 2 and contents changes to "\n1. Hello\n2. How are you". 
