@@ -56,3 +56,18 @@ The above screenshot shows the use of add-message to add a line that says "How a
 *Part 2*
 
 ![Image](cse15llab2part2pic1.png)
+
+The above picture shows the file id_ed25519 listed in the .ssh directory on the home computer.
+
+![Image](cse15llab2part2pic3.png)
+
+The above picture shows the file authorized_keys listed in the .ssh directory in the remote computer.
+
+![Image](cse15llab2part2pic2.png)
+
+The above picture shows my login to the ieng6 computer without the password being prompted.
+
+*Part 3*
+
+I have used ssh before but I have never learned about keys and such as seen in part 2. I have never used Java web servers before so it was interesting to see that. Otherwise, I am somewhat familiar with the material being taught in class.
+
