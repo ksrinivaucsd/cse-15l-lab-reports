@@ -55,4 +55,4 @@ The above screenshot shows the use of add-message to add a line that says "How a
 
 *Part 2*
 
-![Image](CSE15llab2part2pic1.png)
+![Image](cse15llab2part2pic1.png)
