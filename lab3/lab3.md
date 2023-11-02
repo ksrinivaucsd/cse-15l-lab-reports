@@ -4,6 +4,7 @@
 
 The bug that we will explore is ArrayExamples' inability to perform the reverseInPlace function.
 
+The following test fails.
 	  @Test 
 		public void testReverseInPlace2() {
 	    int[] input1 = { 3, 2, 1 };
