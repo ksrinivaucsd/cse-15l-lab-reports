@@ -21,3 +21,7 @@ The following test does not fail.
 	    ArrayExamples.reverseInPlace(input1);
 	    assertArrayEquals(new int[]{ 3 }, input1);
 		}
+  
+The following is the symptom as the test result of the buggy code.
+
+![Image](CSE15LLab3Pic1.png)
