@@ -25,3 +25,21 @@ The following test does not fail.
 The following is the symptom as the test result of the buggy code.
 
 ![Image](CSE15LLab3Pic1.png)
+
+The following is the buggy code.
+
+	  static void reverseInPlace(int[] arr) {
+	    for(int i = 0; i < arr.length; i += 1) {
+	      arr[i] = arr[arr.length - i - 1];
+	    }
+	  }
+
+The following is the code after bug-removal.
+
+	static void reverseInPlace(int[] arr) {
+	  for (int i = 0; i < arr.length / 2; i++) {
+	    int temp = arr[i];
+	    arr[i] = arr[arr.length - i - 1];
+	    arr[arr.length - i - 1] = temp;
+	  }
+	}
