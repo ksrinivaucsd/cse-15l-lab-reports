@@ -61,3 +61,29 @@ Output:
 	./911report/chapter-1.txt
  
  The command takes the name of the file that needs to be found and outputs the path of the file relative to the current working directory. This is useful in locating files.
+
+ Consider the second command.
+
+	 find ./911report -name *.txt
+
+  Output:
+
+	 ./911report/chapter-1.txt
+	./911report/chapter-10.txt  
+	./911report/chapter-11.txt  
+	./911report/chapter-12.txt  
+	./911report/chapter-13.1.txt
+	./911report/chapter-13.2.txt
+	./911report/chapter-13.3.txt
+	./911report/chapter-13.4.txt
+	./911report/chapter-13.5.txt
+	./911report/chapter-2.txt
+	./911report/chapter-3.txt
+	./911report/chapter-5.txt
+	./911report/chapter-6.txt
+	./911report/chapter-7.txt
+	./911report/chapter-8.txt
+	./911report/chapter-9.txt
+	./911report/preface.txt
+
+ The previous command finds all the .txt files in the directory 911 report which exists under technical. This is useful when the all the files of a certain type must be found.
