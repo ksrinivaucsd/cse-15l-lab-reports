@@ -45,3 +45,19 @@ The following is the code after bug-removal.
 	}
 
 The problem with the previous code was that the array was being iterated over while its elements were being swapped. Consequently, elements were being duplicated. The second method only goes through half the array and assigns an iteration that is about to be deleted to temp. This prevents duplication of iterations and lost data.
+
+*Part 2*
+
+The command that I will be exploring is the find command.
+
+The first argument I will be exploring is name.
+
+Consider the following command.
+
+	find -name chapter-1.txt
+
+Output: 
+
+	./911report/chapter-1.txt
+ 
+ The command takes the name of the file that needs to be found and outputs the path of the file relative to the current working directory. This is useful in locating files.
