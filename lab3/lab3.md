@@ -43,3 +43,5 @@ The following is the code after bug-removal.
 	    arr[arr.length - i - 1] = temp;
 	  }
 	}
+
+The problem with the previous code was that the array was being iterated over while its elements were being swapped. Consequently, elements were being duplicated. The second method only goes through half the array and assigns an iteration that is about to be deleted to temp. This prevents duplication of iterations and lost data.
