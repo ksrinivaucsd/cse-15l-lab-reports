@@ -13,3 +13,11 @@ The following test fails.
 	    assertArrayEquals(new int[]{ 1, 2, 3 }, input1);
 		}
 
+The following test does not fail.
+
+		@Test 
+		public void testReverseInPlace() {
+	    int[] input1 = { 3 };
+	    ArrayExamples.reverseInPlace(input1);
+	    assertArrayEquals(new int[]{ 3 }, input1);
+		}
