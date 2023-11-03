@@ -48,7 +48,7 @@ The problem with the previous code was that the array was being iterated over wh
 
 *Part 2*
 
-The command that I will be exploring is the find command.
+The command that I will be exploring is the find command. I have used this (https://www.youtube.com/watch?v=skTiK_6DdqU) YouTube video to learn about the command.
 
 The first argument I will be exploring is name.
 
@@ -135,3 +135,7 @@ Another example of the -type argument in the find command is as follows:
 	911report/preface.txt
 
  The above command finds all the files in the folder 911report. This is useful for navigating and maintaining a directory.
+
+ The next command line option for find I will explore is the -exec option.
+
+ The exec option executes a command on the files found. Consider the following command.
