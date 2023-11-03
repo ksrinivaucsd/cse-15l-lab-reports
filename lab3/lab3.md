@@ -133,3 +133,5 @@ Another example of the -type argument in the find command is as follows:
 	911report/chapter-8.txt
 	911report/chapter-9.txt
 	911report/preface.txt
+
+ The above command finds all the files in the folder 911report. This is useful for navigating and maintaining a directory.
