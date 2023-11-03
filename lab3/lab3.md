@@ -144,4 +144,6 @@ Another example of the -type argument in the find command is as follows:
   
   The output for this command is too long but essentially it applies the cat command to every file found in the 911report/ directory. Consequently, every file in the 911report directory is printed to the terminal. This is very useful in order to read multiple different files in the same directory.
 
+  
+
 
