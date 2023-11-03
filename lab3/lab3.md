@@ -368,3 +368,22 @@ Output:
 
  This is very useful to find files that you do not know the exact name of or to find files with similar naming conventions. 
 
+ Consider this command:
+
+	 find . -iname "*report*"
+
+  It finds all the reports in the current directory.
+
+  Output:
+
+	  ./911report
+	./government/About_LSC/commission_report.txt
+	./government/About_LSC/Progress_report.txt
+	./government/About_LSC/reporting_system.txt
+	./government/About_LSC/Special_report_to_congress.txt
+	./government/About_LSC/State_Planning_Report.txt
+	./government/About_LSC/State_Planning_Special_Report.txt
+	./government/About_LSC/Strategic_report.txt
+	./government/Post_Rate_Comm/ReportToCongress2002WEB.txt
+
+Again, this command finds all the files with the same naming convention (report) which is useful when all reports need to be read.
