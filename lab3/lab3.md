@@ -110,5 +110,26 @@ Output:
 
 The previous command found all the subdirectories to the current working directory (technical). This is useful as it shows where one can change directories into.
 
+Another example of the -type argument in the find command is as follows:
 
- 
+	find 911report -type f
+
+ Output:
+
+	 911report/chapter-1.txt
+	911report/chapter-10.txt
+	911report/chapter-11.txt
+	911report/chapter-12.txt
+	911report/chapter-13.1.txt
+	911report/chapter-13.2.txt
+	911report/chapter-13.3.txt
+	911report/chapter-13.4.txt
+	911report/chapter-13.5.txt
+	911report/chapter-2.txt
+	911report/chapter-3.txt
+	911report/chapter-5.txt
+	911report/chapter-6.txt
+	911report/chapter-7.txt
+	911report/chapter-8.txt
+	911report/chapter-9.txt
+	911report/preface.txt
