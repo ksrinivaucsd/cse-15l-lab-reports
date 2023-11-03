@@ -90,4 +90,25 @@ Output:
 
  The second argument in find that I will be exploring is the -type argument.
 
+ The type argument is very useful for finding all the files or directories in the current directory. Consider the following code.
+
+	 find . -type d
+
+Output:
+
+	.
+	./911report
+	./biomed
+	./government
+	./government/About_LSC
+	./government/Alcohol_Problems
+	./government/Env_Prot_Agen
+	./government/Gen_Account_Office
+	./government/Media
+	./government/Post_Rate_Comm
+	./plos
+
+The previous command found all the subdirectories to the current working directory (technical). This is useful as it shows where one can change directories into.
+
+
  
