@@ -346,4 +346,25 @@ Consider another example of the -exec option.
 
 This is useful to find all pertinent strings in a file in a certain folder.  
 
+The last option I will be exploring is the -iname option. This option allows to find files with an approximate name.
+
+Consider the following command.
+
+	find 911report/ -iname "*chapter*1*"
+
+ This command finds files with the words "chapter" and "1" in them.
+
+Output:
+
+	 911report/chapter-1.txt
+	911report/chapter-10.txt
+	911report/chapter-11.txt
+	911report/chapter-12.txt
+	911report/chapter-13.1.txt
+	911report/chapter-13.2.txt
+	911report/chapter-13.3.txt
+	911report/chapter-13.4.txt
+	911report/chapter-13.5.txt
+
+ This is very useful to find files that you do not know the exact name of or to find files with similar naming conventions. 
 
