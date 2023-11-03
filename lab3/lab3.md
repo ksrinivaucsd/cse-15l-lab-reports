@@ -87,3 +87,7 @@ Output:
 	./911report/preface.txt
 
  The previous command finds all the .txt files in the directory 911 report which exists under technical. This is useful when the all the files of a certain type must be found.
+
+ The second argument in find that I will be exploring is the -type argument.
+
+ 
