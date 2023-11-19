@@ -22,6 +22,8 @@ I pressed the keys bash test.sh and [Enter] to run the tests and they failed.
 
 ![Image](CSE15LLab4Pic3.png)
 
+![Image](CSE15LLab4Pic4.png)
+
 *Step 7*
 
 I typed in vim L [Tab] and . [Tab] and [Enter] to enter ListExamples.java.
@@ -30,20 +32,18 @@ I pressed the down key 41 times and the right key 11 times. I then pressed x, fo
 
 This changed ListExamples.java to the right file.
 
-![Image](CSE15LLab4Pic4.png)
+![Image](CSE15LLab4Pic5.png)
 
 *Step 8*
 
 I pressed the up arrow twice and [Enter] to run test.sh. The tests ran successfully.
 
-![Image](CSE15LLab4Pic5.png)
+![Image](CSE15LLab4Pic6.png)
 
 *Step 9*
 
 I typed git add --all and [Enter]. Followed by git commit -m "changes lab4" and [Enter]. Followed by git push and [Enter].
 
 This pushed all the changes to github.
-
-![Image](CSE15LLab4Pic6.png)
 
 ![Image](CSE15LLab4Pic7.png)
