@@ -44,6 +44,6 @@ I pressed the up arrow twice and [Enter] to run test.sh. The tests ran successfu
 
 I typed git add --all and [Enter]. Followed by git commit -m "changes lab4" and [Enter]. Followed by git push and [Enter].
 
-This pushed all the changes to github.
+There was nothing to commit as I had already committed these changes before during lab and forgot to take a screenshot.
 
 ![Image](CSE15LLab4Pic7.png)
