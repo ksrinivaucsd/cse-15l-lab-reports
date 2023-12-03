@@ -15,12 +15,16 @@ I already had the public key set up so I did not have to press more keys to ente
 **Step 5**
 
 I pressed 
-  <Alt> + <tab>
+
+~~~
+<Alt> + <tab>
+~~~
 
 Then I pressed 
+~~~
+<ctrl> + <c>
+~~~
 
-  <ctrl> + <c>
-  
 to copy the url from github which contains the ssh URL for the GitHub repo.
 
 I then pressed the keys below to paste the ssh URL for the GitHub repo and clone the repository.
