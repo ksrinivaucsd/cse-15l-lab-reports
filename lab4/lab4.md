@@ -2,7 +2,11 @@
 
 **Step 4**
 
-I logged into ieng6 by pressing the keys *ssh cs15lfa23dg@ieng6.ucsd.edu* and [Enter]
+I logged into ieng6 by pressing the keys 
+
+'''
+ssh cs15lfa23dg@ieng6.ucsd.edu[Enter]
+'''
 
 I already had the public key set up so I did not have to press more keys to enter the passcode.
 
