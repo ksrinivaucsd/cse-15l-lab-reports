@@ -39,9 +39,15 @@ I then pressed the keys below to paste the ssh URL for the GitHub repo and clone
 
 I pressed the following keys to enter the cloned repository.
 
-  cd cs <Tab> <Enter>
+~~~
+cd cs <Tab> <Enter>
+~~~
 
-I pressed the keys *bash test.sh* and <Enter> to run the tests and they failed.
+I pressed the following keys to run the tests and they failed.
+
+~~~
+*bash test.sh*<Enter>
+~~~
 
 ![Image](CSE15LLab4Pic3.png)
 
@@ -49,9 +55,23 @@ I pressed the keys *bash test.sh* and <Enter> to run the tests and they failed.
 
 **Step 7**
 
-I typed in *vim L* <Tab> and . <Tab> and <Enter> to enter ListExamples.java.
+I typed in the following to enter ListExamples.java.
 
-I pressed the <down> 41 times and the <right> 11 times. I then pressed <x>, followed by <i>, and then <2>.
+~~~
+vim L<Tab> <.> <Tab> <Enter> 
+~~~
+
+I then pressed the down key 41 times and the right key 11 times
+
+~~~
+<down>(x41)<right>(x11)
+~~~
+
+I then pressed 
+
+~~~
+xi2
+~~~
 
 This changed ListExamples.java to the right file.
 
@@ -59,14 +79,23 @@ This changed ListExamples.java to the right file.
 
 **Step 8**
 
-I pressed the <up> twice and <Enter> to run test.sh. The tests ran successfully.
+I pressed the following to run test.sh again. The tests ran successfully.
+~~~
+<up>(x2)<Enter>
+~~~
 
 ![Image](CSE15LLab4Pic6.png)
 
 **Step 9**
 
-I typed *git add --all* and <Enter>. Followed by *git commit -m "changes lab4"* and <Enter>. Followed by *git push* and <Enter>.
+I typed the following to push the changes to GitHub.
 
-There was nothing to commit as I had already committed these changes before during lab and forgot to take a screenshot.
+~~~
+git add --all <Enter>
+git commit -m "changes lab4" <Enter>
+*git push* <Enter>
+~~~
+
+There was nothing to commit as I had made these changes during lab and forgot to take a screenshot.
 
 ![Image](CSE15LLab4Pic7.png)
