@@ -24,5 +24,16 @@ Hello! Thank you for your message. Looks like re-ordering fixed the issue! I als
 
 *Part 4*
 
-The working directory is shown below. The only non-bash script file which contains the term "Hello" in it is Hello.java. This issue with find-hello.sh was that it printed out every non-bash script file found by find.
+The working directory is shown below. The only non-bash script file which contains the term "Hello" in it is Hello.java.
+
 ![Image](CSE15LLab5Pic4.png)
+
+The issue with find-hello.sh was that it printed out every non-bash script file found by find. The main command in that script is shown below
+
+  find . -type f -not -name "*.sh" -exec echo "Found 'Hello' in: " {} \; -exec grep "Hello" {} \; 
+
+Clearly -exec is called on every non-bash script file found after that the file is checked for "Hello" and the line in which "Hello" is found is printed.
+
+The improved command is as follows
+
+  find . -type f -not -name "*.sh" -exec grep -q "Hello" {} \; -exec echo "Found 'Hello' in: " {} \;
