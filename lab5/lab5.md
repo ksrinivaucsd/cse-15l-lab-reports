@@ -19,10 +19,9 @@ Hi! The echo command will be executed on each non-bash file found and then the g
 Hello! Thank you for your message. Looks like re-ordering fixed the issue! I also added a -q modifier to my grep command so that the exact line isn't printed, only the file that has the term "Hello." Thank you for helping me!
 ![Image](CSE15LLab5Pic3.png)
 
-![Image](CSE15LLab5Pic4.png)
+![Image](CSE15LLab5Pic6.png)
+
 
 *Part 4*
 
-![Image](CSE15LLab5Pic5.png)
-
-![Image](CSE15LLab5Pic6.png)
+![Image](CSE15LLab5Pic4.png)
