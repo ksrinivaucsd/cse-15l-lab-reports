@@ -24,4 +24,5 @@ Hello! Thank you for your message. Looks like re-ordering fixed the issue! I als
 
 *Part 4*
 
+The working directory is shown below. The only non-bash script file which contains the term "Hello" in it is Hello.java. This issue with find-hello.sh was that it printed out every non-bash script file found by find.
 ![Image](CSE15LLab5Pic4.png)
