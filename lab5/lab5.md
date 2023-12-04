@@ -24,6 +24,8 @@ Hello! Thank you for your message. Looks like re-ordering fixed the issue! I als
 
 *Part 4*
 
+I will describe the working directory and the changes in the bash script which fixed the bugs here. The screenshots which show the bash scripts running and their outputs is shown above. The full contents of the files before and after the bug fixing are also shown above.
+
 The working directory is shown below. The only non-bash script file which contains the term "Hello" in it is Hello.java.
 
 ![Image](CSE15LLab5Pic4.png)
@@ -39,3 +41,4 @@ The improved command is as follows
   find . -type f -not -name "*.sh" -exec grep -q "Hello" {} \; -exec echo "Found 'Hello' in: " {} \;
 
 In this command -exec echo is executed on files that return a 1 for grep "Hello". Consequently, only the paths of the non-bash script files that have the term "Hello" in them are printed. This file is Hello.java.
+
