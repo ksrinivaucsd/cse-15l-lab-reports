@@ -1,3 +1,7 @@
+## Karthik Srinivasan's CSE 15L Lab 3 Submission
+
+*Part 1 Student's Question*
+
 ![Image](CSE15LLab5Pic1.png)
 
 ![Image](CSE15LLab5Pic2.png)
