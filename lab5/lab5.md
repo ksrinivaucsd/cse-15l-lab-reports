@@ -42,3 +42,7 @@ The improved command is as follows
 
 In this command -exec echo is executed on files that return a 1 for grep "Hello". Consequently, only the paths of the non-bash script files that have the term "Hello" in them are printed. This file is Hello.java.
 
+**Reflection**
+
+I learned about jdb this quarter and I found it to be exteremely useful. I use Matlab a lot and I like the debugging tool on there so I'm glad there is a java equivalent. I enjoyed learning bash script in more detail and I think that will be extremely useful. Aside from this, I think the find command is the most useful command I have ever encountered and I'm very glad to have learned it.
+
