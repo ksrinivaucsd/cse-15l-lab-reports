@@ -16,7 +16,7 @@ Hi! The echo command will be executed on each non-bash file found and then the g
 
 *Part 3 Student's Solution*
 
-Hello! Thank you for your message. Looks like re-ordering fixed the issue! I also added a -q modifier to my grep command so that the exact line isn't printed, only the file that has the term "Hello." Thank you for helping me!
+Hello! Thank you for your message. Looks like re-ordering fixed the issue! I also added a -q modifier to my grep command so that the exact line isn't printed, only the file path that has the term "Hello." Thank you for helping me!
 ![Image](CSE15LLab5Pic3.png)
 
 ![Image](CSE15LLab5Pic6.png)
@@ -37,3 +37,5 @@ Clearly -exec is called on every non-bash script file found after that the file 
 The improved command is as follows
 
   find . -type f -not -name "*.sh" -exec grep -q "Hello" {} \; -exec echo "Found 'Hello' in: " {} \;
+
+In this command -exec echo is executed on files that return a 1 for grep "Hello". Consequently, only the paths of the non-bash script files that have the term "Hello" in them are printed. This file is Hello.java.
